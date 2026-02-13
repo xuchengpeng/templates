@@ -78,6 +78,7 @@ org-mode
 (title "#+TITLE: " n "#+AUTHOR: " n "#+DESCRIPTION: " n "#+KEYWORDS: " n "#+DATE: " (format-time-string "<%Y-%m-%d %a %H:%M>") n)
 (custom-id ":PROPERTIES:" n ":CUSTOM_ID: " p n ":END:" n)
 (details "#+begin_details" n "#+begin_summary" n p n "#+end_summary" n n p n "#+end_details")
+(details-open "#+attr_html: :open t" n "#+begin_details" n "#+begin_summary" n p n "#+end_summary" n n p n "#+end_details")
 (aside "#+begin_aside" n p n "#+end_aside")
 
 markdown-mode
@@ -89,6 +90,7 @@ markdown-mode
 (center "{{% center %}}" n q n "{{% /center %}}")
 (mermaid "{{< mermaid >}}" n q n "{{< /mermaid >}}")
 (details "{{< details summary=\"" p "\" >}}" n q n "{{< /details >}}")
+(details-open "{{< details summary=\"" p "\" open=true >}}" n q n "{{< /details >}}")
 (figure "{{< figure" n "  src=\"" p "\"" n "  alt=\"" p "\"" n "  caption=\"" p "\"" n "  class=\"" p "\"" n ">}}")
 (highlight "{{< highlight " p " >}}" n q n "{{< /highlight >}}")
 (typeit "{{< typeit" n "  tag=\"" p "\"" n "  class=\"" p "\"" n "  initialString=\"" p "\"" n "  speed=" p n "  lifeLike=" p n "  startDelay=" p n "  breakLines=" p n "  waitUntilVisible=" p n "  loop=" p n ">}}" n q n "{{< /typeit >}}")
