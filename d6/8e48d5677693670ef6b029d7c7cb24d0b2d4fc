@@ -1,0 +1,14 @@
+tempel/templates
+  h_76dde7977e1f21 78
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "10.11.1",
+  "base_commit_sha": "d68e48d5677693670ef6b029d7c7cb24d0b2d4fc",
+  "prompts": {},
+  "humans": {
+    "h_76dde7977e1f21": {
+      "author": "xuchengpeng <chuckxcp@qq.com>"
+    }
+  }
+}
